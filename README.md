@@ -16,4 +16,5 @@ The classification error 1 or 0 has 2 shelves, so we can't minimise this constan
 We use the Hinge function which is majorating the error function (see plot in notebook).
 It is a convex function so we can minimise it with a gradient descent.
 
+## Question 5
 

@@ -17,4 +17,16 @@ We use the Hinge function which is majorating the error function (see plot in no
 It is a convex function so we can minimise it with a gradient descent.
 
 ## Question 5
+We can see in the plot that as C increases, the prediction error decreases until it's stable.
+The coefficient tunes the number of classification errors we accept when larger we accept less errors.*
 
+## Question 6
+As expected when we add columns of noise the performances decreases but the rate is not so strong 
+
+## Question 7
+The features are standardized because the SVM algorithm lays on distances calculations. So we need to reduce the importance
+of the big values.
+
+## Question 8
+The plot clearly shows that the performances are significantly lower than those
+of the linear kernel SVM.
